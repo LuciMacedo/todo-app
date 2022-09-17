@@ -1,0 +1,82 @@
+
+.taskTableWrapper {
+    width: 100%;
+    margin-top: -2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.taskTableInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskTableInput textarea {
+    height: 3.37rem;
+    color: white;
+    width: 39.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+
+}
+
+.taskTableInput button {
+    width: 5.6rem;
+    height: 3.37rem;
+    background-color: var(--blue);
+    color: var(--gray-100);
+    font-size: .8rem;
+    padding: auto;
+    border-radius: 8px;
+    border: none;
+    margin-left: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.taskTable {
+    width: 46rem;
+    margin: 1rem auto .5rem;
+}
+
+.taskTableHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto 1rem;
+}
+
+.taskTableActive {
+    color: var(--blue);
+    font-size: .87rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.taskTableCounter{
+    background: var(--gray-400);
+    border-radius: 62rem;
+    color: var(--gray-100);
+    padding: 0.12rem 0.5rem;
+    text-align: center;
+}
+
+.taskTableCompleted {
+    color: var(--darkPurple);
+    font-size: .87rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+

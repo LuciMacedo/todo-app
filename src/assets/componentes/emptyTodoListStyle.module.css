@@ -1,0 +1,9 @@
+.taskTableEmpty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+    gap: 1rem;
+    margin-top: 2rem;
+}
