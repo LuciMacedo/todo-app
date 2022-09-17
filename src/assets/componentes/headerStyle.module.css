@@ -13,6 +13,18 @@
     display: flex;
 }
 
+.headerLogoTo {
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-family: var(--interFont);
+}
+
+.headerLogoDo {
+    color: var(--darkPurple);
+    font-size: 2.5rem;
+    font-family: var(--interFont);
+}
+
 .headerLogo img {
     margin-right: .5rem;
 }

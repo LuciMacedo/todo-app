@@ -7,6 +7,8 @@ export function Header() {
         <div className={styles.headerWrapper}>
             <div className={styles.headerLogo}>
                 <img src={Logo} alt="Logo ToDo app" />
+                <strong className={styles.headerLogoTo}>to</strong>
+                <strong className={styles.headerLogoDo}>do</strong>
             </div>
         </div>
     );
